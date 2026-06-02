@@ -1,0 +1,217 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/brazzpw-downloader",
+  "serply_link": "https://serp.ly/brazzpw-downloader",
+  "app_name": "Brazzpw Video Downloader",
+  "short_description": "Download & Save Brazzpw Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Brazzpw Downloader is a browser extension that gives you a native workflow for saving videos from supported BrazzPW pages. Instead of hunting through page source or relying on generic copy-paste downloader sites, this extension works directly on the page you are viewing, detecting media candidates as they become available.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/brazzpw-downloader-fullscreen-01-b7452a39ba.webp",
+    "https://apps.serp.co/media/optimized-products/brazzpw-downloader-fullscreen-02-11b6cf0d14.webp",
+    "https://apps.serp.co/media/optimized-products/brazzpw-downloader-fullscreen-03-a9cf764b08.webp",
+    "https://apps.serp.co/media/optimized-products/brazzpw-downloader-fullscreen-04-e6d23cbed0.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a BrazzPW video?",
+      "answer": "Open a supported BrazzPW page, press play if needed, then use the player download button, popup, or right-click menu to review any detected candidates."
+    },
+    {
+      "question": "What formats can it detect?",
+      "answer": "The extension checks video and source tags plus Open Graph and Twitter stream metadata. When the page exposes a usable stream, that may include direct MP4 or HLS-style candidates."
+    },
+    {
+      "question": "Will it always show multiple quality options?",
+      "answer": "Available options depend on what the source page exposes. Not every BrazzPW page reveals multiple variants."
+    },
+    {
+      "question": "Where are downloads saved?",
+      "answer": "Files are saved to an organized BrazzPW download folder in your browser's default download location."
+    },
+    {
+      "question": "Do I need to press play first?",
+      "answer": "Often yes. The media stream may only become visible after playback starts or player scripts run."
+    },
+    {
+      "question": "Is this extension release-ready?",
+      "answer": "This is a released extension. If you encounter issues, report them through GitHub Issues."
+    },
+    {
+      "question": "Does it use a remote downloader site?",
+      "answer": "No. The workflow is in-browser detection plus extension processing. Remote services are used only for authentication and release checks."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Detects media candidates exposed on BrazzPW video and player pages",
+    "Adds an in-page download button near the player",
+    "Works through the extension popup or right-click context menu",
+    "Includes 3 free downloads to test the workflow",
+    "Saves organized MP4 files to a dedicated BrazzPW folder",
+    "In-page download button configured around the BrazzPW player wrapper",
+    "Detection from video and source tags plus Open Graph and Twitter media metadata",
+    "Shared offscreen processing for direct MP4 and HLS-style candidates",
+    "Right-click context menu for page and video contexts",
+    "Extension popup with detected media candidates",
+    "In-page download manager with progress and status",
+    "OTP activation through email verification",
+    "Organized downloads saved to a BrazzPW folder"
+  ],
+  "content": {
+    "why": [
+      "BrazzPW pages often expose the final video stream only after the player initializes and playback begins. This means right-clicking the page or inspecting network requests may not reveal a usable media URL, and generic downloader sites often miss page-specific player behavior.",
+      "Brazzpw Downloader is built around the BrazzPW player wrapper and on-page media detection. It watches for video sources that become available during playback and presents them through a simple in-page button, popup, or context menu. This keeps the download workflow on the page itself, without requiring you to copy URLs or use external tools."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open BrazzPW and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the Brazzpw Downloader extension from the latest GitHub release.",
+      "Open your browser and navigate to a BrazzPW video or player page.",
+      "Press play on the video player to let the stream initialize.",
+      "Look for the download button that appears near the player wrapper.",
+      "Alternatively, click the extension icon in your toolbar to open the popup.",
+      "Right-click anywhere on the page or on the video itself to use the context menu.",
+      "Select the media candidate you want from the available options.",
+      "Wait for the download to complete and save the MP4 file."
+    ],
+    "supported_formats": [
+      "Input: Direct MP4 and HLS-style media candidates when exposed by the page",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "BrazzPW viewers who want a browser-native download workflow",
+      "Users who prefer an extension UI over manual page-source inspection",
+      "People who want to save videos for offline viewing",
+      "Anyone looking for a player-aware download tool instead of generic copy-paste sites"
+    ],
+    "use_cases": [
+      "Save a supported BrazzPW video for offline playback",
+      "Use an in-page player button instead of hunting for media URLs manually",
+      "Start downloads from the popup or right-click context menu after playback begins",
+      "Capture direct MP4 or HLS-style candidates when the page exposes them",
+      "Work entirely inside the browser without using external downloader sites"
+    ],
+    "troubleshooting": [
+      "The download button does not appear on the page. Press play on the video first — the media stream may only become visible after playback starts.",
+      "No media candidates are detected. Try refreshing the page and starting playback again. Some pages require user interaction before exposing the video source.",
+      "The download fails or stops midway. Check your internet connection and try again. If the issue persists, the page may not be exposing a complete media stream.",
+      "The popup shows no options. Make sure you are on a supported BrazzPW video or player page. Navigate to a specific video and press play before opening the popup.",
+      "I see an authentication error. Complete the email verification through the OTP flow. You need to sign in to activate your trial or license."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported BrazzPW page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Press play on the video before checking for media candidates",
+      "Available quality options depend on what the page exposes"
+    ],
+    "about": [
+      "BrazzPW is a video platform that hosts a wide range of adult content. This extension helps viewers save videos for offline access using a browser-native workflow that works with the platform's player structure."
+    ]
+  },
+  "serpx_link": "https://serpx.link/brazzpw-downloader",
+  "github_topics": [
+    "brazzpw-download",
+    "brazzpw-downloader",
+    "brazzpw-video-downloader",
+    "brazzpw-video-downloader-online",
+    "brazzpw-video-downloader-mac",
+    "brazzpw-video-downloader-window",
+    "brazzpw-video-downloader-free",
+    "brazzpw-video-downloader-extension",
+    "brazzpw-video-downloader-app",
+    "brazzpw-video-downloader-chrome",
+    "brazzpw-video-downloader-from-url",
+    "how-to-download-brazzpw-videos",
+    "how-to-download-brazzpw-videos-mac",
+    "how-to-download-brazzpw-videos-windows",
+    "how-to-download-brazzpw-videos-online",
+    "how-to-download-brazzpw-videos-free",
+    "how-to-download-from-brazzpw",
+    "how-to-download-videos-from-brazzpw",
+    "download-brazzpw-videos",
+    "brazzpw-video-tutorial",
+    "save-brazzpw-videos",
+    "brazzpw-video-content-saver",
+    "how-to-download-brazzpw-videos-for-free"
+  ],
+  "hashtags": [
+    "#BrazzpwDownload",
+    "#BrazzpwDownloader",
+    "#BrazzpwVideoDownloader",
+    "#BrazzpwVideoDownloaderOnline",
+    "#BrazzpwVideoDownloaderMac",
+    "#BrazzpwVideoDownloaderWindow",
+    "#BrazzpwVideoDownloaderFree",
+    "#BrazzpwVideoDownloaderExtension",
+    "#BrazzpwVideoDownloaderApp",
+    "#BrazzpwVideoDownloaderChrome",
+    "#BrazzpwVideoDownloaderFromURL",
+    "#HowToDownloadBrazzpwVideos",
+    "#HowToDownloadBrazzpwVideosMac",
+    "#HowToDownloadBrazzpwVideosWindows",
+    "#HowToDownloadBrazzpwVideosOnline",
+    "#HowToDownloadBrazzpwVideosFree",
+    "#HowToDownloadFromBrazzpw",
+    "#HowToDownloadVideosFromBrazzpw",
+    "#DownloadBrazzpwVideos",
+    "#BrazzpwVideoTutorial",
+    "#SaveBrazzpwVideos",
+    "#BrazzpwVideoContentSaver",
+    "#HowToDownloadBrazzpwVideosForFree"
+  ],
+  "youtube_tags": [
+    "Brazzpw Download",
+    "Brazzpw Downloader",
+    "Brazzpw Video Downloader",
+    "Brazzpw Video Downloader Online",
+    "Brazzpw Video Downloader Mac",
+    "Brazzpw Video Downloader Window",
+    "Brazzpw Video Downloader Free",
+    "Brazzpw Video Downloader Extension",
+    "Brazzpw Video Downloader App",
+    "Brazzpw Video Downloader Chrome",
+    "Brazzpw Video Downloader From URL",
+    "How To Download Brazzpw Videos",
+    "How To Download Brazzpw Videos Mac",
+    "How To Download Brazzpw Videos Windows",
+    "How To Download Brazzpw Videos Online",
+    "How To Download Brazzpw Videos Free",
+    "How To Download From Brazzpw",
+    "How To Download Videos From Brazzpw",
+    "Download Brazzpw Videos",
+    "Brazzpw Video Tutorial",
+    "Save Brazzpw Videos",
+    "Brazzpw Video Content Saver",
+    "How To Download Brazzpw Videos For Free"
+  ]
+}
